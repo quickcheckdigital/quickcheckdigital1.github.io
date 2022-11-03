@@ -4,6 +4,7 @@
 
 	<!-- Title & Favicon -->
     <! Quick_check stand 05.03.2021_V12 -Author:Alf Zips--!>
+    <! Erweiterung auf 23 digitale Kundeschnittstellen  --!>
 	<meta charset="utf-8">
 	<title>Quick_CheckApp</title>
 	<!--<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.png') }}" />
@@ -21,16 +22,16 @@
     <script src='dependency/jquery.min.js'></script>
 
 	</head>
-    <! einschub google analytics --!>
+    <! einschub google analytics deleted as new TAG for new Gmail required--!>
     
-    <!-- Google tag (gtag.js) --> 
+    <!-- Google tag (gtag.js)  
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TWJ6XL0VCF"></script> 
     <script> 
         window.dataLayer = window.dataLayer || []; 
         function gtag(){dataLayer.push(arguments);} 
         gtag('js', new Date()); 
         gtag('config', 'G-TWJ6XL0VCF'); 
-    </script>
+    </script>-->
     
     <link rel="icon" type="image/x-icon" scr="logo.png" />
 	<body>
@@ -79,25 +80,6 @@
             <img alt="beispiel" src="Pfeil.png" width="190" height="40" style="margin-left: 430;margin-top: -45" onclick="function_button0()">
             </figure>-->
         </div>
-        
-        <!--<div class="promotoren"
-             style="width: 1000;height: 150;background-color: azure;margin-top: 0">
-          
-            <figure>
-                <img  src="finanzgeber.png"
-                alt="finanzgeber.pgn"
-                width="919"
-                height="76"
-                style="margin:auto;display: block">
-                <style>
-                    .promotoren {
-                    display: table-cell;
-                    height: 400px;
-                    vertical-align: middle;
-                    }
-                </style>
-            </figure>
-        </div>   --> 
         
         <br><br>
         <br><br>
@@ -367,16 +349,31 @@
 		      <input id="Wert13" type="text" style="text-align: center;width: 230px" readonly> <input id="Rat13" style="text-align: right;width: 230px" type="text" >
             <br>
 		      <input id="Rang14" type="text"  style="text-align: left;width: 50px" readonly> <input id="Schnitt14" type="text" style="text-align: left;width: 370px">
-		      <input id="Wert14" type="text" style="text-align: center;width:230px "  readonly> <input id="Rat14" type="text" style="text-align: right;width: 230px">
+		      <input id="Wert14" type="text" style="text-align: center;width:230px " readonly> <input id="Rat14" type="text" style="text-align: right;width: 230px">
             <br>
 		      <input id="Rang15" type="text"  style="text-align: left;width: 50px" readonly> <input id="Schnitt15" type="text" style="text-align: left;width: 370px">
-		      <input id="Wert15" type="text" style="text-align: center;width:230px "  readonly> <input id="Rat15" type="text" style="text-align: right;width: 230px">
+		      <input id="Wert15" type="text" style="text-align: center;width:230px " readonly> <input id="Rat15" type="text" style="text-align: right;width: 230px">
             <br>
 		      <input id="Rang16" type="text" style="text-align: left;width: 50px" readonly> <input id="Schnitt16" style="text-align: left;width: 370px" type="text">
 		      <input id="Wert16" type="text" style="text-align: center;width: 230px" readonly> <input id="Rat16" style="text-align: right;width: 230px" type="text" >
             <br>
 		      <input id="Rang17" type="text"  style="text-align: left;width: 50px" readonly> <input id="Schnitt17" type="text" style="text-align: left;width: 370px">
 		      <input id="Wert17" type="text" style="text-align: center;width:230px"  readonly> <input id="Rat17" type="text" style="text-align: right;width: 230px">
+            <br>
+		      <input id="Rang18" type="text" style="text-align: left;width: 50px" readonly> <input id="Schnitt18" style="text-align: left;width: 370px" type="text">
+		      <input id="Wert18" type="text" style="text-align: center;width: 230px" readonly> <input id="Rat18" style="text-align: right;width: 230px" type="text" >
+            <br>
+		      <input id="Rang19" type="text"  style="text-align: left;width: 50px" readonly> <input id="Schnitt19" type="text" style="text-align: left;width: 370px">
+		      <input id="Wert19" type="text" style="text-align: center;width:230px "  readonly> <input id="Rat19" type="text" style="text-align: right;width: 230px">
+            <br>
+		      <input id="Rang20" type="text"  style="text-align: left;width: 50px" readonly> <input id="Schnitt20" type="text" style="text-align: left;width: 370px">
+		      <input id="Wert20" type="text" style="text-align: center;width:230px "  readonly> <input id="Rat20" type="text" style="text-align: right;width: 230px">
+            <br>
+		      <input id="Rang21" type="text" style="text-align: left;width: 50px" readonly> <input id="Schnitt21" style="text-align: left;width: 370px" type="text">
+		      <input id="Wert21" type="text" style="text-align: center;width: 230px" readonly> <input id="Rat21" style="text-align: right;width: 230px" type="text" >
+            <br>
+		      <input id="Rang22" type="text"  style="text-align: left;width: 50px" readonly> <input id="Schnitt22" type="text" style="text-align: left;width: 370px">
+		      <input id="Wert22" type="text" style="text-align: center;width:230px"  readonly> <input id="Rat22" type="text" style="text-align: right;width: 230px">
            
         </div>                
 
@@ -408,7 +405,7 @@
 
 	<!-- Scripts -->
 	<!--<script type="text/javascript" src="{{ url_for('static', filename='java_script_V14.js') }}"></script>--->
-    <script src="java_script_V240.js"></script>
+    <script src="java_script_V301.js"></script>
 
 </html>
 
