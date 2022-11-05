@@ -92,7 +92,7 @@ bewertung=[
    ];   
 kriterien=["Augmented Reality","Bewertungsportale","Blogs", "Chatbots","Digitale Bezahlsysteme",
 "Emails","externer E-Marketplace","Foren","Instant Messenger","Live-Chat","Mobile Apps","Newsletter (Email)","Online-Messen",
-"eigener Online-Shop","Service-Plattformen","Social Media","Sprachassistenten","SEM (Suchmaschinen-Marketing",
+"eigener Online-Shop","Service-Plattformen","Social Media","Sprachassistenten","SEM (Suchmaschinen-Marketing)",
 "Track and Trace (Sendungsverfolgung)","Videokonferenzen-Tool","Virtual Reality","Virtual Showroom","Website"]
 // ----------------------------------------------
 // ### FUNCTIONS 
@@ -516,7 +516,7 @@ function count() {
         // empfehlung und farbige Markierung
         
         console.log("ergebnis ", ergebnis)
-		for (i=0;i<18;i++){
+		for (i=0;i<23;i++){
 			feld="Rang"+i
 			document.getElementById(feld).value=i+1
 			feld="Schnitt"+i
@@ -777,7 +777,7 @@ function count() {
 			}	
 	
 			// kopieren in mehrdimensionale Matrix
-			var ergebnis_matrix = new Array(18);
+			var ergebnis_matrix = new Array(23);
 	
 			for (var i = 0; i < 23; i++) {
 				ergebnis_matrix[i] = new Array(3);
