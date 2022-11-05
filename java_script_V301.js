@@ -35,7 +35,7 @@ function download(data, filename, type) {
     }
     data=data + "****** Empfehlung QUICKCHEK ******" + "\n\r"
 
-    for (i=0;i<18;i++){
+    for (i=0;i<23;i++){
         rang=document.getElementById("Rang"+i).value
         schnitt=document.getElementById("Schnitt"+i).value
         wert=document.getElementById("Wert"+i).value
