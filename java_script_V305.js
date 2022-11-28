@@ -469,8 +469,8 @@ function count() {
 	// *******************************
 
 	if (j>0){
-		document.getElementById('check').value="Bislang " + (ifrag-1-j) + " Fragen von 15 beantwortet"
-		document.getElementById('check1').value="Bislang " + (ifrag-1- j) + " Fragen von 15 beantwortet"
+		document.getElementById('check').value="Bislang " + (ifrag-j) + " Fragen von 15 beantwortet"
+		document.getElementById('check1').value="Bislang " + (ifrag- j) + " Fragen von 15 beantwortet"
 		}
 	else{
         document.getElementById('check').value="alle Fragen ok "
@@ -799,8 +799,8 @@ function count() {
 		// *******************************
 	
 		if (j>0){
-			document.getElementById('check').value="Bislang " + (ifrag-1- j) + " Fragen von 15 beantwortet"
-			document.getElementById('check1').value="Bislang " + (ifrag-1- j) + " Fragen von 15 beantwortet"
+			document.getElementById('check').value="Bislang " + (ifrag- j) + " Fragen von 15 beantwortet"
+			document.getElementById('check1').value="Bislang " + (ifrag- j) + " Fragen von 15 beantwortet"
 			}
 		else{
 			document.getElementById('check').value="alle Fragen ok "
