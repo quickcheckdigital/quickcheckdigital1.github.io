@@ -19,7 +19,7 @@
 // ebenfalls anzupassen, damit die zusätzlichen Fragen
 // auch gedruckt werden.
 // User variables (+1 wegen der Form der Abfrage)
-ifrag=14+1
+ifrag=14
 idig=23+1
 //-----------------------------------------------
 // Function to download data to a file nachträglich eingeführt
@@ -438,15 +438,15 @@ function count() {
     	}
         //
         //if (document.getElementsByName("F15")[0].checked==false && document.getElementsByName("F15")[1].checked==false && document.getElementsByName("F15")[2].checked==false && document.getElementsByName("F15")[3].checked==false) {
-        //	antwort[14]=0
+        //	antwort[15]=0
         //	document.getElementById("Q15").style.backgroundColor="lightpink" 
     	//}
         //if (document.getElementsByName("F16")[0].checked==false && document.getElementsByName("F16")[1].checked==false && document.getElementsByName("F16")[2].checked==false && document.getElementsByName("F16")[3].checked==false) {
-        //	antwort[14]=0
+        //	antwort[16]=0
         //	document.getElementById("Q16").style.backgroundColor="lightpink" 
     	//}
         //if (document.getElementsByName("F17")[0].checked==false && document.getElementsByName("F17")[1].checked==false && document.getElementsByName("F17")[2].checked==false && document.getElementsByName("F17")[3].checked==false) {
-        //	antwort[14]=0
+        //	antwort[17]=0
         //	document.getElementById("Q17").style.backgroundColor="lightpink" 
     	//}
         //
@@ -467,8 +467,8 @@ function count() {
 	// *******************************
 
 	if (j>0){
-		document.getElementById('check').value="Bislang " + (ifrag-1-j) + " Fragen von 14 beantworten"
-		document.getElementById('check1').value="Bislang " + (ifrag-1- j) + " Fragen von 14 beantworten"
+		document.getElementById('check').value="Bislang " + (ifrag-j) + " Fragen von 14 beantwortet"
+		document.getElementById('check1').value="Bislang " + (ifrag- j) + " Fragen von 14 beantwortet"
 		}
 	else{
         document.getElementById('check').value="alle Fragen ok "
@@ -796,8 +796,8 @@ function count() {
 		// *******************************
 	
 		if (j>0){
-			document.getElementById('check').value="Bislang " + (ifrag-1- j) + " Fragen von 14 beantworten"
-			document.getElementById('check1').value="Bislang " + (ifrag-1- j) + " Fragen von 14 beantworten"
+			document.getElementById('check').value="Bislang " + (ifrag- j) + " Fragen von 14 beantwortet"
+			document.getElementById('check1').value="Bislang " + (ifrag- j) + " Fragen von 14 beantwortet"
 			}
 		else{
 			document.getElementById('check').value="alle Fragen ok "
